@@ -1,7 +1,6 @@
-from tensorflow.keras.datasets import mnist
 from tensorflow import keras
-from tensorflow.keras import layers
-import tensorflow as tf
+from keras.datasets import mnist
+from keras import layers
 
 from layered_model import define_dense_model_single_layer, define_dense_model_with_hidden_layer
 from layered_model import fit_mnist_model_single_digit, evaluate_mnist_model_single_digit
